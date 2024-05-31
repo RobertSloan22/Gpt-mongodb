@@ -8,7 +8,6 @@ const port = 3000;
 app.use(bodyParser.json());
 
 // MongoDB connection string
-const uri = "mongodb+srv://radevai1201:szZ2HmXFRc902EeW@cluster0.b8z5ks7.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/";
 // Connect to MongoDB
 mongoose.connect(uri);
 
